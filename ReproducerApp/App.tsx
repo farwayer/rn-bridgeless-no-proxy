@@ -56,6 +56,8 @@ function Section({children, title}: SectionProps): React.JSX.Element {
 }
 
 function App(): React.JSX.Element {
+  new Proxy({}, {});
+  
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
